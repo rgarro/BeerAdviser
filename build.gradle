@@ -3,6 +3,10 @@
 buildscript {
     repositories {
         jcenter()
+        //google()       // Required for Android Studio components
+        //jcenter()      // Required for older legacy plugins
+        //mavenCentral()
+
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.3.3'
@@ -15,6 +19,9 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
+        //google()
+        //jcenter()
+        //mavenCentral()
     }
 }
 
